@@ -1,0 +1,8 @@
+
+State Machine - |Lab7Part2|control:ctrl|current_state
+Name current_state.DRAW current_state.S_LOAD_Y current_state.S_LOAD_X_WAIT current_state.S_LOAD_X current_state.CLEAR 
+current_state.S_LOAD_X 0 0 0 0 0 
+current_state.S_LOAD_X_WAIT 0 0 1 1 0 
+current_state.S_LOAD_Y 0 1 0 1 0 
+current_state.DRAW 1 0 0 1 0 
+current_state.CLEAR 0 0 0 1 1 

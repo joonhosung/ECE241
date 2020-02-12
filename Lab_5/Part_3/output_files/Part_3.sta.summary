@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -2.917
+TNS   : -75.621
+
+Type  : Slow 1100mV 85C Model Setup 'RateDiv:U2|enable'
+Slack : -1.016
+TNS   : -12.057
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.377
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'RateDiv:U2|enable'
+Slack : 0.651
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.408
+TNS   : -15.793
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'RateDiv:U2|enable'
+Slack : -0.394
+TNS   : -7.153
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -3.059
+TNS   : -73.902
+
+Type  : Slow 1100mV 0C Model Setup 'RateDiv:U2|enable'
+Slack : -0.963
+TNS   : -11.574
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.376
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'RateDiv:U2|enable'
+Slack : 0.600
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.399
+TNS   : -17.084
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'RateDiv:U2|enable'
+Slack : -0.394
+TNS   : -7.182
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -1.393
+TNS   : -33.356
+
+Type  : Fast 1100mV 85C Model Setup 'RateDiv:U2|enable'
+Slack : -0.489
+TNS   : -4.910
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.202
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'RateDiv:U2|enable'
+Slack : 0.317
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.386
+TNS   : -3.006
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'RateDiv:U2|enable'
+Slack : 0.139
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -1.300
+TNS   : -28.564
+
+Type  : Fast 1100mV 0C Model Setup 'RateDiv:U2|enable'
+Slack : -0.375
+TNS   : -3.780
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'RateDiv:U2|enable'
+Slack : 0.274
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.377
+TNS   : -2.988
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'RateDiv:U2|enable'
+Slack : 0.143
+TNS   : 0.000
+
+------------------------------------------------------------

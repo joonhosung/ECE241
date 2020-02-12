@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Mon Dec 02 06:36:01 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Guitar_Amp
+Top-level Entity Name : Guitar_Amp
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 962
+Total pins : 106
+Total virtual pins : 0
+Total block memory bits : 2,967,552
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 2
+Total DLLs : 0

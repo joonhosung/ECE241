@@ -1,0 +1,113 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_5/Part_2
+vDisplayCounter
+Z1 !s110 1571797970
+!i10b 1
+!s100 gIb`XSL`5[z5QYUiHF:6T0
+ITmg3MmfN;@HgU1S[;H^AH1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1571794659
+Z4 8Part2.v
+Z5 FPart2.v
+L0 60
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1571797970.000000
+Z8 !s107 Part2.v|
+Z9 !s90 -reportprogress|300|Part2.v|
+!i113 1
+Z10 tCvgOpt 0
+n@display@counter
+vmux_4to1
+R1
+!i10b 1
+!s100 JGYlS;[Mn8dJdAgMC`PG:2
+IRN<S?oH2YAUEn:Fm56Jjj1
+R2
+R0
+R3
+R4
+R5
+L0 17
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vPart2
+R1
+!i10b 1
+!s100 6mMOC>H[ecdo1Y4=1@im:0
+I@T9L]Z7`9Zf9?i<V9G@i@1
+R2
+R0
+R3
+R4
+R5
+L0 4
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@part2
+vRateDivider
+R1
+!i10b 1
+!s100 85d5nSJQQnPbnPzhM2M?z1
+IJ:mF4joW_T9o0OgFc__lD0
+R2
+R0
+R3
+R4
+R5
+L0 40
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@rate@divider
+vseg7
+R1
+!i10b 1
+!s100 aUWk66YJLo_E[d?o[nhb10
+IZFR6i10bmGh6Zo>Hgj18o1
+R2
+R0
+R3
+R4
+R5
+L0 77
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10

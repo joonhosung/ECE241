@@ -1,0 +1,10 @@
+
+
+D:/Junho Sung/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Project/Guitar Amp/Audio_Controller/Audio_Clock.v
+
+Nov 26 04AM:10:34>: Error in CNX file format.
+
+Error messages are listed in file
+D:/Junho Sung/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Project/Guitar Amp/Audio_Controller/Audio_Clock.cnxerr.
+
+Can't create the custom megafunction variation file(s)

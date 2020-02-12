@@ -1,0 +1,486 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {C:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_4/Part_2/ALU_Register.do}
+dir
+#  Volume in drive C is OS
+#  Volume Serial Number is 7407-A44E
+# 
+#  Directory of C:\Users\junho\OneDrive\University of Toronto\- Courses!\Year 2\Term 1\ECE241 - Digital Systems\Lab_4\Part_2
+# 
+# 10/06/2019  11:53 PM    <DIR>          .
+# 10/06/2019  11:53 PM    <DIR>          ..
+# 10/06/2019  10:57 PM             2,559 ALU.v
+# 10/06/2019  10:39 PM             3,480 ALU.v.bak
+# 10/06/2019  11:55 PM               397 ALU_Register.do
+# 10/06/2019  11:53 PM                74 ALU_Register.do.bak
+# 10/06/2019  10:38 PM             1,323 ALU_Register.qpf
+# 10/06/2019  11:47 PM            49,566 ALU_Register.qsf
+# 10/06/2019  11:17 PM             2,289 ALU_Register.qsf.bak
+# 10/06/2019  11:47 PM               972 ALU_Register.v
+# 10/06/2019  10:39 PM             3,480 ALU_Register.v.bak
+# 10/06/2019  11:48 PM             4,875 c5_pin_model_dump.txt
+# 10/06/2019  11:48 PM    <DIR>          db
+# 10/06/2019  11:21 PM    <DIR>          incremental_db
+# 10/06/2019  11:48 PM    <DIR>          output_files
+# 10/06/2019  11:52 PM               204 transcript
+#               11 File(s)         69,219 bytes
+#                5 Dir(s)  71,279,902,720 bytes free
+do ALU_Register.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:55:18 on Oct 06,2019
+# vlog -reportprogress 300 ALU_Register.v 
+# -- Compiling module register
+# -- Compiling module ALU_Register
+# 
+# Top level modules:
+# 	ALU_Register
+# End time: 23:55:18 on Oct 06,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim ALU_Register 
+# Start time: 23:55:18 on Oct 06,2019
+# Loading work.ALU_Register
+# ** Error: (vsim-3033) ALU_Register.v(27): Instantiation of 'seg7' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_Register File: ALU_Register.v
+#         Searched libraries:
+#             C:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_4/Part_2/work
+# ** Error: (vsim-3033) ALU_Register.v(28): Instantiation of 'seg7' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_Register File: ALU_Register.v
+#         Searched libraries:
+#             C:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_4/Part_2/work
+# ** Error: (vsim-3033) ALU_Register.v(29): Instantiation of 'seg7' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_Register File: ALU_Register.v
+#         Searched libraries:
+#             C:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_4/Part_2/work
+# ** Error: (vsim-3033) ALU_Register.v(30): Instantiation of 'seg7' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_Register File: ALU_Register.v
+#         Searched libraries:
+#             C:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_4/Part_2/work
+# ** Error: (vsim-3033) ALU_Register.v(34): Instantiation of 'ALU' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_Register File: ALU_Register.v
+#         Searched libraries:
+#             C:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_4/Part_2/work
+# Loading work.register
+# ** Error: (vsim-3033) ALU_Register.v(44): Instantiation of 'seg7' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_Register File: ALU_Register.v
+#         Searched libraries:
+#             C:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_4/Part_2/work
+# ** Error: (vsim-3033) ALU_Register.v(45): Instantiation of 'seg7' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_Register File: ALU_Register.v
+#         Searched libraries:
+#             C:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_4/Part_2/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ALU_Register.do PAUSED at line 3
+dir
+#  Volume in drive C is OS
+#  Volume Serial Number is 7407-A44E
+# 
+#  Directory of C:\Users\junho\OneDrive\University of Toronto\- Courses!\Year 2\Term 1\ECE241 - Digital Systems\Lab_4\Part_2
+# 
+# 10/06/2019  11:55 PM    <DIR>          .
+# 10/06/2019  11:55 PM    <DIR>          ..
+# 10/06/2019  10:57 PM             2,559 ALU.v
+# 10/06/2019  10:39 PM             3,480 ALU.v.bak
+# 10/06/2019  11:55 PM               397 ALU_Register.do
+# 10/06/2019  11:53 PM                74 ALU_Register.do.bak
+# 10/06/2019  10:38 PM             1,323 ALU_Register.qpf
+# 10/06/2019  11:47 PM            49,566 ALU_Register.qsf
+# 10/06/2019  11:17 PM             2,289 ALU_Register.qsf.bak
+# 10/06/2019  11:47 PM               972 ALU_Register.v
+# 10/06/2019  10:39 PM             3,480 ALU_Register.v.bak
+# 10/06/2019  11:48 PM             4,875 c5_pin_model_dump.txt
+# 10/06/2019  11:48 PM    <DIR>          db
+# 10/06/2019  11:21 PM    <DIR>          incremental_db
+# 10/06/2019  11:48 PM    <DIR>          output_files
+# 10/06/2019  11:55 PM             4,446 transcript
+# 10/06/2019  11:55 PM    <DIR>          work
+#               11 File(s)         73,461 bytes
+#                6 Dir(s)  71,280,660,480 bytes free
+do ALU_Register.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:55:32 on Oct 06,2019
+# vlog -reportprogress 300 ALU_Register.v 
+# -- Compiling module register
+# -- Compiling module ALU_Register
+# 
+# Top level modules:
+# 	ALU_Register
+# End time: 23:55:32 on Oct 06,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim ALU_Register 
+# Start time: 23:55:18 on Oct 06,2019
+# Loading work.ALU_Register
+# ** Error: (vsim-3033) ALU_Register.v(27): Instantiation of 'seg7' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_Register File: ALU_Register.v
+#         Searched libraries:
+#             C:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_4/Part_2/work
+# ** Error: (vsim-3033) ALU_Register.v(28): Instantiation of 'seg7' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_Register File: ALU_Register.v
+#         Searched libraries:
+#             C:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_4/Part_2/work
+# ** Error: (vsim-3033) ALU_Register.v(29): Instantiation of 'seg7' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_Register File: ALU_Register.v
+#         Searched libraries:
+#             C:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_4/Part_2/work
+# ** Error: (vsim-3033) ALU_Register.v(30): Instantiation of 'seg7' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_Register File: ALU_Register.v
+#         Searched libraries:
+#             C:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_4/Part_2/work
+# ** Error: (vsim-3033) ALU_Register.v(34): Instantiation of 'ALU' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_Register File: ALU_Register.v
+#         Searched libraries:
+#             C:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_4/Part_2/work
+# Loading work.register
+# ** Error: (vsim-3033) ALU_Register.v(44): Instantiation of 'seg7' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_Register File: ALU_Register.v
+#         Searched libraries:
+#             C:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_4/Part_2/work
+# ** Error: (vsim-3033) ALU_Register.v(45): Instantiation of 'seg7' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_Register File: ALU_Register.v
+#         Searched libraries:
+#             C:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_4/Part_2/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ALU_Register.do PAUSED at line 3
+
+do ALU_Register.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:56:09 on Oct 06,2019
+# vlog -reportprogress 300 ALU_Register.v 
+# -- Compiling module register
+# -- Compiling module ALU_Register
+# 
+# Top level modules:
+# 	ALU_Register
+# End time: 23:56:09 on Oct 06,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:56:10 on Oct 06,2019
+# vlog -reportprogress 300 ALU.v 
+# -- Compiling module seg7
+# -- Compiling module FA
+# -- Compiling module four_bit_ripple
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	seg7
+# 	ALU
+# End time: 23:56:10 on Oct 06,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim ALU_Register 
+# Start time: 23:55:18 on Oct 06,2019
+# Loading work.ALU_Register
+# Loading work.seg7
+# Loading work.ALU
+# Loading work.four_bit_ripple
+# Loading work.FA
+# Loading work.register
+# ** Error: invalid command name "run10ns"
+# Error in macro ./ALU_Register.do line 13
+# invalid command name "run10ns"
+#     while executing
+# "run10ns"
+dir
+#  Volume in drive C is OS
+#  Volume Serial Number is 7407-A44E
+# 
+#  Directory of C:\Users\junho\OneDrive\University of Toronto\- Courses!\Year 2\Term 1\ECE241 - Digital Systems\Lab_4\Part_2
+# 
+# 10/06/2019  11:56 PM    <DIR>          .
+# 10/06/2019  11:56 PM    <DIR>          ..
+# 10/06/2019  10:57 PM             2,559 ALU.v
+# 10/06/2019  10:39 PM             3,480 ALU.v.bak
+# 10/06/2019  11:56 PM               409 ALU_Register.do
+# 10/06/2019  11:55 PM               397 ALU_Register.do.bak
+# 10/06/2019  10:38 PM             1,323 ALU_Register.qpf
+# 10/06/2019  11:47 PM            49,566 ALU_Register.qsf
+# 10/06/2019  11:17 PM             2,289 ALU_Register.qsf.bak
+# 10/06/2019  11:47 PM               972 ALU_Register.v
+# 10/06/2019  10:39 PM             3,480 ALU_Register.v.bak
+# 10/06/2019  11:48 PM             4,875 c5_pin_model_dump.txt
+# 10/06/2019  11:48 PM    <DIR>          db
+# 10/06/2019  11:21 PM    <DIR>          incremental_db
+# 10/06/2019  11:48 PM    <DIR>          output_files
+# 10/06/2019  11:56 PM            10,023 transcript
+# 10/06/2019  11:56 PM            57,344 vsim.wlf
+# 10/06/2019  11:56 PM    <DIR>          work
+#               12 File(s)        136,717 bytes
+#                6 Dir(s)  71,279,439,872 bytes free
+cd 
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+quit -sim
+# End time: 23:56:45 on Oct 06,2019, Elapsed time: 0:01:27
+# Errors: 18, Warnings: 0
+cd
+cd
+do ALU_Register.do
+# Cannot open macro file: ALU_Register.do
+dir
+#  Volume in drive C is OS
+#  Volume Serial Number is 7407-A44E
+# 
+#  Directory of C:\Users\junho
+# 
+# 10/06/2019  08:22 PM    <DIR>          .
+# 10/06/2019  08:22 PM    <DIR>          ..
+# 07/25/2019  05:44 PM    <DIR>          .atom
+# 08/27/2019  07:40 PM               965 .bash_history
+# 08/18/2019  11:19 PM               117 .gitconfig
+# 05/04/2019  11:39 PM    <DIR>          .idlerc
+# 09/10/2019  03:40 PM    <DIR>          .nbi
+# 04/25/2019  06:24 PM    <DIR>          .ssh
+# 10/06/2019  10:49 PM    <DIR>          .VirtualBox
+# 09/18/2019  02:14 PM    <DIR>          3D Objects
+# 09/18/2019  02:14 PM    <DIR>          Contacts
+# 04/19/2019  03:41 PM    <DIR>          Creative Cloud Files
+# 03/15/2019  05:29 PM    <DIR>          Documents
+# 10/06/2019  05:06 PM    <DIR>          Downloads
+# 09/18/2019  02:14 PM    <DIR>          Favorites
+# 09/18/2019  02:14 PM    <DIR>          Links
+# 09/18/2019  02:14 PM    <DIR>          Music
+# 05/04/2019  10:23 PM    <DIR>          New folder
+# 10/06/2019  10:34 PM    <DIR>          OneDrive
+# 07/04/2019  06:01 PM    <DIR>          OpenVPN
+# 10/06/2019  08:22 PM                 0 qms-bmh1.bmp
+# 10/06/2019  08:22 PM                 0 qms-bmh2.bmp
+# 10/06/2019  08:22 PM                 0 qms-bmh3.bmp
+# 10/06/2019  11:25 PM                78 quartus2.ini
+# 10/06/2019  11:51 PM            35,743 quartus2.qreg
+# 10/06/2019  08:22 PM                 0 quartus_web_rules_file.txt
+# 09/18/2019  02:14 PM    <DIR>          Saved Games
+# 09/18/2019  02:14 PM    <DIR>          Searches
+# 05/04/2019  10:14 PM    <DIR>          solarwarp
+# 09/18/2019  02:14 PM    <DIR>          Videos
+# 03/17/2019  03:26 PM    <DIR>          VirtualBox VMs
+#                8 File(s)         36,903 bytes
+#               23 Dir(s)  71,279,284,224 bytes free
+cd OneDrive
+dir
+#  Volume in drive C is OS
+#  Volume Serial Number is 7407-A44E
+# 
+#  Directory of C:\Users\junho\OneDrive
+# 
+# 10/06/2019  10:34 PM    <DIR>          .
+# 10/06/2019  10:34 PM    <DIR>          ..
+# 07/10/2019  02:52 PM           357,215 20190710 MRSUNG-1.pdf
+# 07/10/2019  02:52 PM           313,714 20190710 MRSUNG-2.pdf
+# 07/10/2019  02:52 PM           202,423 20190710 MRSUNG-3.pdf
+# 07/10/2019  02:52 PM           698,752 20190710 MRSUNG-4.pdf
+# 07/10/2019  02:51 PM         1,570,885 20190710 MRSUNG.pdf
+# 08/05/2019  08:59 PM          (12,212) Account book (question mark).xlsx
+# 03/15/2019  05:28 PM    <DIR>          Attachments
+# 07/09/2019  06:37 PM         (182,589) Canada's Wonderland.pdf
+# 04/25/2019  01:41 PM    <DIR>          Coding crap
+# 08/17/2019  04:17 PM    <DIR>          Coursera
+# 03/14/2017  10:57 PM         (128,624) DEEP application Jun Ho Sung.docx
+# 08/31/2019  11:45 AM            73,143 Deposit Account Details _ CIBC Online Banking.pdf
+# 07/10/2019  02:06 AM       (4,100,491) ilovepdf_split.zip
+# 07/10/2019  03:45 PM         6,713,747 Lease Agreement Jun Ho Sung.pdf
+# 08/06/2019  05:36 PM    <DIR>          Money
+# 04/16/2019  12:44 AM            13,997 Plan for Reading Week.docx
+# 07/10/2019  02:53 PM    <DIR>          Programming Books
+# 03/20/2019  01:06 PM    <DIR>          School stuffz
+# 11/18/2018  11:33 PM         (505,907) Screenshot_20181118-223048_Samsung Notes.jpg
+# 05/05/2019  10:44 AM    <DIR>          solarwarp
+# 04/16/2019  12:41 AM         (389,118) Study Strategies.png
+# 04/25/2019  06:33 PM    <DIR>          TeledyneDalsa_Odroid
+# 05/31/2019  01:52 AM         (769,408) The Official Ministry of Transportation (MTO) Driver's Handbook.pdf
+# 08/20/2019  04:11 PM    <DIR>          University of Toronto
+# 10/06/2019  12:55 PM             1,164 ?? ?? ???.lnk
+# 09/18/2019  02:14 PM    <DIR>          ??
+# 10/05/2019  05:06 PM    <DIR>          ?? ??
+# 09/18/2019  02:14 PM    <DIR>          ??
+#               16 File(s)     16,033,389 bytes
+#               14 Dir(s)  71,279,206,400 bytes free
+cd University of Toronto
+# wrong # args: should be "cd ?dirName?"
+cd "University of Toronto"
+dir
+#  Volume in drive C is OS
+#  Volume Serial Number is 7407-A44E
+# 
+#  Directory of C:\Users\junho\OneDrive\University of Toronto
+# 
+# 08/20/2019  04:11 PM    <DIR>          .
+# 08/20/2019  04:11 PM    <DIR>          ..
+# 09/10/2019  02:47 PM    <DIR>          - Courses!
+# 08/28/2019  04:38 PM    <DIR>          3D Models
+# 04/12/2019  05:45 AM    <DIR>          Cover Letters
+# 08/20/2019  04:06 PM           233,472 freeglut.dll
+# 08/05/2019  03:04 PM         (129,739) Invoice.pdf
+# 08/20/2019  04:06 PM    <DIR>          lib
+# 08/20/2019  04:06 PM            74,752 libgcc_s_seh-1.dll
+# 08/20/2019  04:06 PM           241,045 libglut-0__.dll
+# 08/20/2019  04:06 PM         1,418,240 libstdc++-6.dll
+# 08/20/2019  04:06 PM            52,736 libwinpthread-1.dll
+# 08/20/2019  04:06 PM    <DIR>          local-lib
+# 08/20/2019  04:06 PM           188,035 MANIFEST
+# 08/20/2019  04:06 PM               255 META.yml
+# 06/07/2019  05:06 PM    <DIR>          Other
+# 08/20/2019  04:11 PM         1,873,408 perl524.dll
+# 08/20/2019  04:11 PM            77,312 pthreadGC2-w64.dll
+# 09/27/2019  06:31 PM    <DIR>          Resume & Jobs & Stuff
+# 08/20/2019  04:06 PM    <DIR>          script
+# 08/20/2019  04:06 PM           415,349 Slic3r-console.exe
+# 08/20/2019  04:06 PM           415,861 Slic3r-debug-console.exe
+# 08/20/2019  04:06 PM           415,861 Slic3r.exe
+# 08/20/2019  04:11 PM            32,401 slic3r.pl
+# 07/25/2019  05:44 PM    <DIR>          UTAT UAV
+# 06/13/2019  04:56 PM    <DIR>          UTFR (Formula SAE)
+# 08/20/2019  04:11 PM    <DIR>          var
+#               14 File(s)      5,568,466 bytes
+#               13 Dir(s)  71,279,206,400 bytes free
+cd "- Courses!"
+dir
+#  Volume in drive C is OS
+#  Volume Serial Number is 7407-A44E
+# 
+#  Directory of C:\Users\junho\OneDrive\University of Toronto\- Courses!
+# 
+# 09/10/2019  02:47 PM    <DIR>          .
+# 09/10/2019  02:47 PM    <DIR>          ..
+# 06/01/2019  01:52 PM    <DIR>          Business Courses
+# 06/07/2019  05:06 PM    <DIR>          Year 1
+# 09/10/2019  02:47 PM    <DIR>          Year 2
+#                0 File(s)              0 bytes
+#                5 Dir(s)  71,279,190,016 bytes free
+cd "Year 1"
+cd ..
+cd "Year 2"
+dir
+#  Volume in drive C is OS
+#  Volume Serial Number is 7407-A44E
+# 
+#  Directory of C:\Users\junho\OneDrive\University of Toronto\- Courses!\Year 2
+# 
+# 09/10/2019  02:47 PM    <DIR>          .
+# 09/10/2019  02:47 PM    <DIR>          ..
+# 09/10/2019  02:47 PM    <DIR>          ECE 2019-2020
+# 09/10/2019  02:47 PM    <DIR>          Term 1
+# 09/23/2019  11:40 PM          (14,211) Year 2 Term 1 Plan.xlsx
+#                1 File(s)         14,211 bytes
+#                4 Dir(s)  71,279,185,920 bytes free
+cd "Term 1"
+dir
+#  Volume in drive C is OS
+#  Volume Serial Number is 7407-A44E
+# 
+#  Directory of C:\Users\junho\OneDrive\University of Toronto\- Courses!\Year 2\Term 1
+# 
+# 09/10/2019  02:47 PM    <DIR>          .
+# 09/10/2019  02:47 PM    <DIR>          ..
+# 09/10/2019  02:47 PM    <DIR>          ECE201 - ECE Seminar
+# 09/30/2019  01:10 AM    <DIR>          ECE212 - Circuit Analysis
+# 10/06/2019  01:34 AM    <DIR>          ECE241 - Digital Systems
+# 10/02/2019  07:07 PM    <DIR>          ECE244 - Programming Fundamentals
+# 09/10/2019  02:47 PM    <DIR>          MAT290 - Advanced Engineering Mathematics
+# 09/10/2019  02:47 PM    <DIR>          MAT291 - Calculus 3
+#                0 File(s)              0 bytes
+#                8 Dir(s)  71,279,185,920 bytes free
+cd "ECE241 - Digital Systems"
+dir
+#  Volume in drive C is OS
+#  Volume Serial Number is 7407-A44E
+# 
+#  Directory of C:\Users\junho\OneDrive\University of Toronto\- Courses!\Year 2\Term 1\ECE241 - Digital Systems
+# 
+# 10/06/2019  01:34 AM    <DIR>          .
+# 10/06/2019  01:34 AM    <DIR>          ..
+# 09/08/2019  04:46 PM           128,031 CourseInfo_ECE241_2019.pdf
+# 09/18/2019  03:28 PM          (44,713) DE1_SoC.qsf
+# 09/08/2019  04:47 PM          (17,756) DE1_SoC_Purchase_Program.pdf
+# 09/24/2019  02:48 PM    <DIR>          Lab_1
+# 10/02/2019  05:52 AM    <DIR>          Lab_2
+# 10/06/2019  10:35 PM    <DIR>          Lab_3
+# 10/06/2019  11:52 PM    <DIR>          Lab_4
+# 09/08/2019  04:47 PM         (587,412) Parts_Handbook_2018.1.pdf
+# 09/08/2019  04:46 PM          (45,925) PlavecProjectDesign.pdf
+# 09/08/2019  04:47 PM         (568,952) SimulationExamples.pdf
+# 09/08/2019  04:46 PM           (8,872) Suggested_Practice_Problems.pdf
+# 09/08/2019  04:46 PM            28,196 Syllabus_ECE241_2019.pdf
+# 09/08/2019  04:47 PM         (294,625) UsefulModelsimCommands.v1.0.pdf
+# 10/02/2019  12:00 AM    <DIR>          work
+#                9 File(s)      1,724,482 bytes
+#                7 Dir(s)  71,279,120,384 bytes free
+cd Lab_3
+cd ..
+cd Lab_4
+dir
+#  Volume in drive C is OS
+#  Volume Serial Number is 7407-A44E
+# 
+#  Directory of C:\Users\junho\OneDrive\University of Toronto\- Courses!\Year 2\Term 1\ECE241 - Digital Systems\Lab_4
+# 
+# 10/06/2019  11:52 PM    <DIR>          .
+# 10/06/2019  11:52 PM    <DIR>          ..
+# 10/06/2019  01:34 AM           214,554 lab4_2019.pdf
+# 10/06/2019  11:56 PM    <DIR>          Part_2
+#                1 File(s)        214,554 bytes
+#                3 Dir(s)  71,279,112,192 bytes free
+cd Part_2
+dir
+#  Volume in drive C is OS
+#  Volume Serial Number is 7407-A44E
+# 
+#  Directory of C:\Users\junho\OneDrive\University of Toronto\- Courses!\Year 2\Term 1\ECE241 - Digital Systems\Lab_4\Part_2
+# 
+# 10/06/2019  11:56 PM    <DIR>          .
+# 10/06/2019  11:56 PM    <DIR>          ..
+# 10/06/2019  10:57 PM             2,559 ALU.v
+# 10/06/2019  10:39 PM             3,480 ALU.v.bak
+# 10/06/2019  11:56 PM               410 ALU_Register.do
+# 10/06/2019  11:56 PM               409 ALU_Register.do.bak
+# 10/06/2019  10:38 PM             1,323 ALU_Register.qpf
+# 10/06/2019  11:47 PM            49,566 ALU_Register.qsf
+# 10/06/2019  11:17 PM             2,289 ALU_Register.qsf.bak
+# 10/06/2019  11:47 PM               972 ALU_Register.v
+# 10/06/2019  10:39 PM             3,480 ALU_Register.v.bak
+# 10/06/2019  11:48 PM             4,875 c5_pin_model_dump.txt
+# 10/06/2019  11:48 PM    <DIR>          db
+# 10/06/2019  11:21 PM    <DIR>          incremental_db
+# 10/06/2019  11:48 PM    <DIR>          output_files
+# 10/06/2019  11:58 PM            20,493 transcript
+# 10/06/2019  11:56 PM            57,344 vsim.wlf
+# 10/06/2019  11:56 PM    <DIR>          work
+#               12 File(s)        147,200 bytes
+#                6 Dir(s)  71,279,112,192 bytes free
+do ALU_Register.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:58:29 on Oct 06,2019
+# vlog -reportprogress 300 ALU_Register.v 
+# -- Compiling module register
+# -- Compiling module ALU_Register
+# 
+# Top level modules:
+# 	ALU_Register
+# End time: 23:58:29 on Oct 06,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:58:29 on Oct 06,2019
+# vlog -reportprogress 300 ALU.v 
+# -- Compiling module seg7
+# -- Compiling module FA
+# -- Compiling module four_bit_ripple
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	seg7
+# 	ALU
+# End time: 23:58:29 on Oct 06,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim ALU_Register 
+# Start time: 23:58:29 on Oct 06,2019
+# Loading work.ALU_Register
+# Loading work.seg7
+# Loading work.ALU
+# Loading work.four_bit_ripple
+# Loading work.FA
+# Loading work.register
+# End time: 16:05:09 on Oct 07,2019, Elapsed time: 16:06:40
+# Errors: 0, Warnings: 0

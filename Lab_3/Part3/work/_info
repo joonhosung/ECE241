@@ -1,0 +1,133 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_3/Part3
+vALU
+Z1 !s110 1570017965
+!i10b 1
+!s100 S1DB^CRen[2]8UncVb5bG3
+IlgeBBj2]MO6X]?9^6YmBB0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1570013752
+Z4 8Lab3_Part3.v
+Z5 FLab3_Part3.v
+L0 99
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1570017965.000000
+Z8 !s107 Lab3_Part3.v|
+Z9 !s90 -reportprogress|300|Lab3_Part3.v|
+!i113 1
+Z10 tCvgOpt 0
+n@a@l@u
+vFA
+R1
+!i10b 1
+!s100 AD3dN`45;Xak_R_0UlbDH2
+I=<M;o]iHecOb=HET@f>9A1
+R2
+R0
+R3
+R4
+R5
+L0 71
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@f@a
+vfour_bit_ripple
+R1
+!i10b 1
+!s100 Sh:XjNcG=S^H<n^H6Vd3@0
+I?zY^F^_LK8BC7C]nY`5@Y1
+R2
+R0
+R3
+R4
+R5
+L0 81
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vLab3_Part3
+R1
+!i10b 1
+!s100 AC>Fe7LTKo6m0Xc_>j9VQ1
+I4_^Vkla6iK_^f[`Y6@Sa22
+R2
+R0
+R3
+R4
+R5
+L0 128
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@lab3_@part3
+vmux6to1
+R1
+!i10b 1
+!s100 ;df:7kchYe@K7@j8GbYKZ3
+IbK8dBh>Z80aWTg:blZNVW1
+R2
+R0
+R3
+R4
+R5
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vseg7
+R1
+!i10b 1
+!s100 dY::W26TF=;50Z^RfgcNa0
+IHa;h8NNO`ZLkIJh]3RNAm0
+R2
+R0
+R3
+R4
+R5
+L0 24
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10

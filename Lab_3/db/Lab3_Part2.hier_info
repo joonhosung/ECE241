@@ -1,0 +1,96 @@
+|Lab3_Part2
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => SW[6].IN1
+SW[7] => SW[7].IN1
+SW[8] => SW[8].IN1
+SW[9] => ~NO_FANOUT~
+LEDR[0] <= four_bit_ripple:U1.s
+LEDR[1] <= four_bit_ripple:U1.s
+LEDR[2] <= four_bit_ripple:U1.s
+LEDR[3] <= four_bit_ripple:U1.s
+LEDR[4] <= <GND>
+LEDR[5] <= <GND>
+LEDR[6] <= <GND>
+LEDR[7] <= <GND>
+LEDR[8] <= <GND>
+LEDR[9] <= four_bit_ripple:U1.c_out
+
+
+|Lab3_Part2|four_bit_ripple:U1
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+s[0] <= FA:FA0.port3
+s[1] <= FA:FA1.port3
+s[2] <= FA:FA2.port3
+s[3] <= FA:FA3.port3
+c_out <= FA:FA3.port4
+
+
+|Lab3_Part2|four_bit_ripple:U1|FA:FA0
+a => s.IN1
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN0
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab3_Part2|four_bit_ripple:U1|FA:FA1
+a => s.IN1
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN0
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab3_Part2|four_bit_ripple:U1|FA:FA2
+a => s.IN1
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN0
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab3_Part2|four_bit_ripple:U1|FA:FA3
+a => s.IN1
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN0
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

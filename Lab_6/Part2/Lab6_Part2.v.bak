@@ -1,0 +1,7 @@
+`timescale 1ns/1ns
+
+
+module Lab6_Part2 (SW, KEY, LEDR);
+
+
+endmodule

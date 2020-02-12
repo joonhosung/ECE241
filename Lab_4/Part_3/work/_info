@@ -1,0 +1,111 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_4/Part_3
+vBit_Shifter
+Z1 !s110 1570592967
+!i10b 1
+!s100 T93P2^V3C0>e=5h`ggYgK1
+I<gbgP0A^:Xc]8h44g96;?0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1570502391
+Z4 8Bit_Shifter.v
+Z5 FBit_Shifter.v
+L0 79
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1570592967.000000
+Z8 !s107 Bit_Shifter.v|
+Z9 !s90 -reportprogress|300|Bit_Shifter.v|
+!i113 1
+Z10 tCvgOpt 0
+n@bit_@shifter
+vmux2to1
+R1
+!i10b 1
+!s100 XW]bdilEZ?GN?IkI_k:U?2
+IQlch[DhfBXci9[B@e>b8]0
+R2
+R0
+R3
+R4
+R5
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vregister
+R1
+!i10b 1
+!s100 jQ6gkS0d@cjd6kcn9JN3U3
+INzYG8o=[ezRA1L^mVMgFX3
+R2
+R0
+R3
+R4
+R5
+L0 9
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vrot_reg
+R1
+!i10b 1
+!s100 CEk7alNTIJMbVRZcbSLPQ2
+IP<6NVhM^72H@bGL^koNCP0
+R2
+R0
+R3
+R4
+R5
+L0 25
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vrot_reg_x8
+R1
+!i10b 1
+!s100 dehU4z__5MIM_6eVXM6U=3
+IGg6l5=c8`d4Q6nIhemi101
+R2
+R0
+R3
+R4
+R5
+L0 37
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10

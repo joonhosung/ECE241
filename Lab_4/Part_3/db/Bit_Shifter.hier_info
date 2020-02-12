@@ -1,0 +1,312 @@
+|Bit_Shifter
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => SW[6].IN1
+SW[7] => SW[7].IN1
+SW[8] => ~NO_FANOUT~
+SW[9] => SW[9].IN1
+KEY[0] => _.IN1
+KEY[1] => _.IN1
+KEY[2] => _.IN1
+KEY[3] => _.IN1
+LEDR[0] <= rot_reg_x8:bitshift.Q
+LEDR[1] <= rot_reg_x8:bitshift.Q
+LEDR[2] <= rot_reg_x8:bitshift.Q
+LEDR[3] <= rot_reg_x8:bitshift.Q
+LEDR[4] <= rot_reg_x8:bitshift.Q
+LEDR[5] <= rot_reg_x8:bitshift.Q
+LEDR[6] <= rot_reg_x8:bitshift.Q
+LEDR[7] <= rot_reg_x8:bitshift.Q
+
+
+|Bit_Shifter|rot_reg_x8:bitshift
+IN[0] => IN[0].IN1
+IN[1] => IN[1].IN1
+IN[2] => IN[2].IN1
+IN[3] => IN[3].IN1
+IN[4] => IN[4].IN1
+IN[5] => IN[5].IN1
+IN[6] => IN[6].IN1
+IN[7] => IN[7].IN1
+Q[0] <= w[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= w[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= w[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= w[3].DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= w[4].DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= w[5].DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= w[6].DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= w[7].DB_MAX_OUTPUT_PORT_TYPE
+RotateRight => RotateRight.IN8
+ASRight => ASRight.IN1
+ParallelLoadn => ParallelLoadn.IN8
+reset => reset.IN8
+clock => clock.IN8
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|mux2to1:ASR
+select => out.OUTPUTSELECT
+x => out.DATAA
+y => out.DATAB
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R7
+LoadLeft => LoadLeft.IN1
+loadn => loadn.IN1
+reset => reset.IN1
+clock => clock.IN1
+left => left.IN1
+right => right.IN1
+D => D.IN1
+Q <= register:flip_flop.Q
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R7|mux2to1:shifted_bit
+select => out.OUTPUTSELECT
+x => out.DATAA
+y => out.DATAB
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R7|mux2to1:load
+select => out.OUTPUTSELECT
+x => out.DATAA
+y => out.DATAB
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R7|register:flip_flop
+D => Q.DATAA
+reset => Q.OUTPUTSELECT
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R6
+LoadLeft => LoadLeft.IN1
+loadn => loadn.IN1
+reset => reset.IN1
+clock => clock.IN1
+left => left.IN1
+right => right.IN1
+D => D.IN1
+Q <= register:flip_flop.Q
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R6|mux2to1:shifted_bit
+select => out.OUTPUTSELECT
+x => out.DATAA
+y => out.DATAB
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R6|mux2to1:load
+select => out.OUTPUTSELECT
+x => out.DATAA
+y => out.DATAB
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R6|register:flip_flop
+D => Q.DATAA
+reset => Q.OUTPUTSELECT
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R5
+LoadLeft => LoadLeft.IN1
+loadn => loadn.IN1
+reset => reset.IN1
+clock => clock.IN1
+left => left.IN1
+right => right.IN1
+D => D.IN1
+Q <= register:flip_flop.Q
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R5|mux2to1:shifted_bit
+select => out.OUTPUTSELECT
+x => out.DATAA
+y => out.DATAB
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R5|mux2to1:load
+select => out.OUTPUTSELECT
+x => out.DATAA
+y => out.DATAB
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R5|register:flip_flop
+D => Q.DATAA
+reset => Q.OUTPUTSELECT
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R4
+LoadLeft => LoadLeft.IN1
+loadn => loadn.IN1
+reset => reset.IN1
+clock => clock.IN1
+left => left.IN1
+right => right.IN1
+D => D.IN1
+Q <= register:flip_flop.Q
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R4|mux2to1:shifted_bit
+select => out.OUTPUTSELECT
+x => out.DATAA
+y => out.DATAB
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R4|mux2to1:load
+select => out.OUTPUTSELECT
+x => out.DATAA
+y => out.DATAB
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R4|register:flip_flop
+D => Q.DATAA
+reset => Q.OUTPUTSELECT
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R3
+LoadLeft => LoadLeft.IN1
+loadn => loadn.IN1
+reset => reset.IN1
+clock => clock.IN1
+left => left.IN1
+right => right.IN1
+D => D.IN1
+Q <= register:flip_flop.Q
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R3|mux2to1:shifted_bit
+select => out.OUTPUTSELECT
+x => out.DATAA
+y => out.DATAB
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R3|mux2to1:load
+select => out.OUTPUTSELECT
+x => out.DATAA
+y => out.DATAB
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R3|register:flip_flop
+D => Q.DATAA
+reset => Q.OUTPUTSELECT
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R2
+LoadLeft => LoadLeft.IN1
+loadn => loadn.IN1
+reset => reset.IN1
+clock => clock.IN1
+left => left.IN1
+right => right.IN1
+D => D.IN1
+Q <= register:flip_flop.Q
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R2|mux2to1:shifted_bit
+select => out.OUTPUTSELECT
+x => out.DATAA
+y => out.DATAB
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R2|mux2to1:load
+select => out.OUTPUTSELECT
+x => out.DATAA
+y => out.DATAB
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R2|register:flip_flop
+D => Q.DATAA
+reset => Q.OUTPUTSELECT
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R1
+LoadLeft => LoadLeft.IN1
+loadn => loadn.IN1
+reset => reset.IN1
+clock => clock.IN1
+left => left.IN1
+right => right.IN1
+D => D.IN1
+Q <= register:flip_flop.Q
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R1|mux2to1:shifted_bit
+select => out.OUTPUTSELECT
+x => out.DATAA
+y => out.DATAB
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R1|mux2to1:load
+select => out.OUTPUTSELECT
+x => out.DATAA
+y => out.DATAB
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R1|register:flip_flop
+D => Q.DATAA
+reset => Q.OUTPUTSELECT
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R0
+LoadLeft => LoadLeft.IN1
+loadn => loadn.IN1
+reset => reset.IN1
+clock => clock.IN1
+left => left.IN1
+right => right.IN1
+D => D.IN1
+Q <= register:flip_flop.Q
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R0|mux2to1:shifted_bit
+select => out.OUTPUTSELECT
+x => out.DATAA
+y => out.DATAB
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R0|mux2to1:load
+select => out.OUTPUTSELECT
+x => out.DATAA
+y => out.DATAB
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bit_Shifter|rot_reg_x8:bitshift|rot_reg:R0|register:flip_flop
+D => Q.DATAA
+reset => Q.OUTPUTSELECT
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

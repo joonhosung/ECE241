@@ -1,0 +1,8 @@
+module mux2to1(input select, input in, output m);
+    input x; //select 0
+  
+    //assign m = s & y | ~s & x;
+    // OR
+    assign m = s ? y : x;
+
+endmodule

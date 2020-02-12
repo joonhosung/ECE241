@@ -1,0 +1,20 @@
+Fitter Status : Successful - Mon Dec 02 06:38:35 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Guitar_Amp
+Top-level Entity Name : Guitar_Amp
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Timing Models : Final
+Logic utilization (in ALMs) : 2,320 / 32,070 ( 7 % )
+Total registers : 1055
+Total pins : 106 / 457 ( 23 % )
+Total virtual pins : 0
+Total block memory bits : 2,967,552 / 4,065,280 ( 73 % )
+Total RAM Blocks : 367 / 397 ( 92 % )
+Total DSP Blocks : 0 / 87 ( 0 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 1 / 6 ( 17 % )
+Total DLLs : 0 / 4 ( 0 % )

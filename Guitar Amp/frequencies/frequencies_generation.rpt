@@ -1,0 +1,38 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "D:\Junho Sung\OneDrive\University of Toronto\- Courses!\Year 2\Term 1\ECE241 - Digital Systems\Project\Guitar_Amp\frequencies.qsys" --block-symbol-file --output-directory="D:\Junho Sung\OneDrive\University of Toronto\- Courses!\Year 2\Term 1\ECE241 - Digital Systems\Project\Guitar_Amp\frequencies" --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading Guitar_Amp/frequencies.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 18.1]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: frequencies.fft_ii_0: Radix-2 digit reverse implied
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "D:\Junho Sung\OneDrive\University of Toronto\- Courses!\Year 2\Term 1\ECE241 - Digital Systems\Project\Guitar_Amp\frequencies.qsys" --synthesis=VERILOG --output-directory="D:\Junho Sung\OneDrive\University of Toronto\- Courses!\Year 2\Term 1\ECE241 - Digital Systems\Project\Guitar_Amp\frequencies\synthesis" --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading Guitar_Amp/frequencies.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 18.1]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: frequencies.fft_ii_0: Radix-2 digit reverse implied
+Info: frequencies: Generating frequencies "frequencies" for QUARTUS_SYNTH
+Info: fft_ii_0: --- add file: frequencies_fft_ii_0_opt_twi3.hex
+Info: fft_ii_0: --- add file: frequencies_fft_ii_0_opt_twr2.hex
+Info: fft_ii_0: --- add file: frequencies_fft_ii_0_opt_twi4.hex
+Info: fft_ii_0: --- add file: frequencies_fft_ii_0_opt_twr3.hex
+Info: fft_ii_0: --- add file: frequencies_fft_ii_0_opt_twr4.hex
+Info: fft_ii_0: --- add file: frequencies_fft_ii_0_opt_twi1.hex
+Info: fft_ii_0: --- add file: frequencies_fft_ii_0_opt_twi2.hex
+Info: fft_ii_0: --- add file: frequencies_fft_ii_0_opt_twr1.hex
+Info: fft_ii_0: "frequencies" instantiated altera_fft_ii "fft_ii_0"
+Info: frequencies: Done "frequencies" with 2 modules, 50 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

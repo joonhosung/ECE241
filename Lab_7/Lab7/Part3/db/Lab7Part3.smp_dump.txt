@@ -1,0 +1,7 @@
+
+State Machine - |Lab7Part3|control:ctrl|current_state
+Name current_state.S_CLEAR current_state.S_COUNT_12 current_state.S_DRAW current_state.S_LOAD 
+current_state.S_LOAD 0 0 0 0 
+current_state.S_DRAW 0 0 1 1 
+current_state.S_COUNT_12 0 1 0 1 
+current_state.S_CLEAR 1 0 0 1 

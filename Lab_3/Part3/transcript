@@ -1,0 +1,131 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {C:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_3/Part3/Lab3_Part3.do}
+dir
+#  Volume in drive C is OS
+#  Volume Serial Number is 7407-A44E
+# 
+#  Directory of C:\Users\junho\OneDrive\University of Toronto\- Courses!\Year 2\Term 1\ECE241 - Digital Systems\Lab_3\Part3
+# 
+# 10/02/2019  07:42 AM    <DIR>          .
+# 10/02/2019  07:42 AM    <DIR>          ..
+# 10/02/2019  06:57 AM             4,875 c5_pin_model_dump.txt
+# 10/02/2019  06:57 AM    <DIR>          db
+# 10/02/2019  06:42 AM    <DIR>          incremental_db
+# 10/02/2019  07:50 AM             3,303 Lab3_Part3.do
+# 10/02/2019  07:48 AM             2,923 Lab3_Part3.do.bak
+# 10/02/2019  02:58 AM             1,321 Lab3_Part3.qpf
+# 10/02/2019  06:55 AM            14,895 Lab3_Part3.qsf
+# 10/02/2019  06:45 AM             2,676 Lab3_Part3.qsf.bak
+# 10/02/2019  06:55 AM             3,596 Lab3_Part3.v
+# 10/02/2019  02:58 AM                 1 Lab3_Part3.v.bak
+# 10/02/2019  06:57 AM    <DIR>          output_files
+# 10/02/2019  07:42 AM               201 transcript
+# 10/02/2019  07:42 AM            57,344 vsim.wlf
+# 10/02/2019  07:29 AM    <DIR>          work
+#               10 File(s)         91,135 bytes
+#                6 Dir(s)  74,609,586,176 bytes free
+do Lab3_Part3.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:50:45 on Oct 02,2019
+# vlog -reportprogress 300 Lab3_Part3.v 
+# -- Compiling module mux6to1
+# -- Compiling module seg7
+# -- Compiling module FA
+# -- Compiling module four_bit_ripple
+# -- Compiling module ALU
+# -- Compiling module Lab3_Part3
+# 
+# Top level modules:
+# 	mux6to1
+# 	Lab3_Part3
+# End time: 07:50:45 on Oct 02,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim Lab3_Part3 
+# Start time: 07:50:45 on Oct 02,2019
+# Loading work.Lab3_Part3
+# Loading work.ALU
+# Loading work.four_bit_ripple
+# Loading work.FA
+# Loading work.seg7
+# WARNING: No extended dataflow license exists
+do Lab3_Part3.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:54:30 on Oct 02,2019
+# vlog -reportprogress 300 Lab3_Part3.v 
+# -- Compiling module mux6to1
+# -- Compiling module seg7
+# -- Compiling module FA
+# -- Compiling module four_bit_ripple
+# -- Compiling module ALU
+# -- Compiling module Lab3_Part3
+# 
+# Top level modules:
+# 	mux6to1
+# 	Lab3_Part3
+# End time: 07:54:30 on Oct 02,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:54:32 on Oct 02,2019, Elapsed time: 0:03:47
+# Errors: 0, Warnings: 1
+# vsim Lab3_Part3 
+# Start time: 07:54:32 on Oct 02,2019
+# Loading work.Lab3_Part3
+# Loading work.ALU
+# Loading work.four_bit_ripple
+# Loading work.FA
+# Loading work.seg7
+do Lab3_Part3.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:03:59 on Oct 02,2019
+# vlog -reportprogress 300 Lab3_Part3.v 
+# -- Compiling module mux6to1
+# -- Compiling module seg7
+# -- Compiling module FA
+# -- Compiling module four_bit_ripple
+# -- Compiling module ALU
+# -- Compiling module Lab3_Part3
+# 
+# Top level modules:
+# 	mux6to1
+# 	Lab3_Part3
+# End time: 08:03:59 on Oct 02,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 08:04:01 on Oct 02,2019, Elapsed time: 0:09:29
+# Errors: 0, Warnings: 0
+# vsim Lab3_Part3 
+# Start time: 08:04:01 on Oct 02,2019
+# Loading work.Lab3_Part3
+# Loading work.ALU
+# Loading work.four_bit_ripple
+# Loading work.FA
+# Loading work.seg7
+do Lab3_Part3.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:06:05 on Oct 02,2019
+# vlog -reportprogress 300 Lab3_Part3.v 
+# -- Compiling module mux6to1
+# -- Compiling module seg7
+# -- Compiling module FA
+# -- Compiling module four_bit_ripple
+# -- Compiling module ALU
+# -- Compiling module Lab3_Part3
+# 
+# Top level modules:
+# 	mux6to1
+# 	Lab3_Part3
+# End time: 08:06:05 on Oct 02,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 08:06:07 on Oct 02,2019, Elapsed time: 0:02:06
+# Errors: 0, Warnings: 0
+# vsim Lab3_Part3 
+# Start time: 08:06:07 on Oct 02,2019
+# Loading work.Lab3_Part3
+# Loading work.ALU
+# Loading work.four_bit_ripple
+# Loading work.FA
+# Loading work.seg7
+# End time: 16:14:37 on Oct 05,2019, Elapsed time: 80:08:30
+# Errors: 0, Warnings: 0

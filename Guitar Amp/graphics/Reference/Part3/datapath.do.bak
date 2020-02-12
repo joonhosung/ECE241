@@ -1,0 +1,74 @@
+vlib work
+vlog datapath.v
+vsim datapath
+log {/*}
+add wave {/*}
+
+#clock waveform
+force {clk} 0 0ns, 1 {5ns} -r 10ns
+
+# main cns
+force {resetn} 1
+force {black} 0
+
+# FSM cn data
+force {cnA} 1
+force {cnB} 0
+force {cnC} 0
+force {cnD} 0
+
+# User input for coordinates and color
+force {xy_input[0]} 0
+force {xy_input[1]} 0
+force {xy_input[2]} 0
+force {xy_input[3]} 0
+force {xy_input[4]} 0
+force {xy_input[5]} 0
+force {xy_input[6]} 0
+force {xy_input[7]} 0
+force {xy_input[8]} 0
+force {xy_input[9]} 0
+
+# Reset everything to known value
+force {resetn} 0
+run 40ns
+force {resetn} 1
+
+# Setup X coordinates as 100
+force {xy_input[0]} 0
+force {xy_input[1]} 0
+force {xy_input[2]} 1
+force {xy_input[3]} 0
+force {xy_input[4]} 0
+force {xy_input[5]} 1
+force {xy_input[6]} 1
+run 10ns
+
+# Revert and Setup Y coordinates as 100 and color as white
+force {cnA} 0
+force {cnB} 1
+force {xy_input[7]} 1
+force {xy_input[8]} 1
+force {xy_input[9]} 1
+run 10ns
+
+# Draw
+force {cnB} 0
+force {cnC} 1
+run 100ns
+
+# Done
+force {cnC} 0
+force {cnA} 1
+run 10ns
+
+# Black
+force {cnD} 1
+force {black} 1
+run 40ns
+
+# Reset
+force {cnD} 0
+force {black} 0
+force {resetn} 0
+run 40ns

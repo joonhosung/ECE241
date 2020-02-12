@@ -1,0 +1,46 @@
+vlib work
+vlog control.v
+vsim control
+log {/*}
+add wave {/*}
+
+#clock waveform
+force {clk} 0 0ns, 1 {5ns} -r 10ns
+
+# main controls
+force {resetn} 1
+force {black} 0
+force {load} 0
+force {GO} 0
+force {done} 0
+
+# Reset everything to known value
+force {resetn} 0
+run 40ns
+
+force {resetn} 1
+force {load} 0
+run 20ns
+
+# Load X
+force {load} 1
+run 40ns 
+
+# Load Y and colour
+force {load} 0
+force {GO} 1
+run 40ns
+
+# Draw
+force {GO} 0
+force {done} 1
+run 40ns
+
+# Going Back
+force {done} 0
+run 40ns
+
+# Black
+force {black} 1
+force {done} 0
+run 40ns

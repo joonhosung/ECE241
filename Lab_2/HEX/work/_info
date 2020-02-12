@@ -1,0 +1,71 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab2/HEX
+vbiswise
+!s110 1570010001
+!i10b 1
+!s100 U7G:W1D:92bJABRVj;EEa2
+IBdYBQgzTDL<zVihF8e>Ca2
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_2/HEX
+w1570009994
+Z2 8HEX_display.v
+Z3 FHEX_display.v
+L0 2
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1570010001.000000
+!s107 HEX_display.v|
+Z5 !s90 -reportprogress|300|HEX_display.v|
+!i113 1
+Z6 tCvgOpt 0
+vbitwise
+Z7 !s110 1570010335
+!i10b 1
+!s100 nBc2TzJAnHOg@mYP]RQaB3
+IaQ1AU[jcB0Bi1bSdaZW6A1
+R0
+R1
+Z8 w1570010326
+R2
+R3
+L0 2
+R4
+r1
+!s85 0
+31
+Z9 !s108 1570010335.000000
+Z10 !s107 HEX_display.v|
+R5
+!i113 1
+R6
+vHEX_disp
+R7
+!i10b 1
+!s100 olIz]222S4LITm75ID<;43
+Iie9;F0ZhhN`V`o<eo@Zc63
+R0
+R1
+R8
+R2
+R3
+L0 9
+R4
+r1
+!s85 0
+31
+R9
+R10
+R5
+!i113 1
+R6
+n@h@e@x_disp

@@ -1,0 +1,133 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab_4/Part_2
+vALU
+Z1 !s110 1570595014
+!i10b 1
+!s100 2G2HZlEX]a:Jf[<BYgXYe3
+I3Q;X3coC]98;Hj>?N4XkI0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1570417044
+Z4 8ALU.v
+Z5 FALU.v
+L0 73
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1570595014.000000
+Z8 !s107 ALU.v|
+Z9 !s90 -reportprogress|300|ALU.v|
+!i113 1
+Z10 tCvgOpt 0
+n@a@l@u
+vALU_Register
+Z11 !s110 1570595013
+!i10b 1
+!s100 mEajY>kd^7kmL3PR>:Qn41
+IH8hoN_cReALK<JP0?`HF93
+R2
+R0
+Z12 w1570567850
+Z13 8ALU_Register.v
+Z14 FALU_Register.v
+L0 18
+R6
+r1
+!s85 0
+31
+Z15 !s108 1570595013.000000
+Z16 !s107 ALU_Register.v|
+Z17 !s90 -reportprogress|300|ALU_Register.v|
+!i113 1
+R10
+n@a@l@u_@register
+vFA
+R1
+!i10b 1
+!s100 @CO<ZNAiV;5JEXOZ@JgHD0
+I6i?0CLADA=dNz6Ei3TlnL3
+R2
+R0
+R3
+R4
+R5
+L0 48
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@f@a
+vfour_bit_ripple
+R1
+!i10b 1
+!s100 AP2kXP1nAj0j5AzJ0IADR1
+IWD?;8J=ZmZP_RTFWzS4H23
+R2
+R0
+R3
+R4
+R5
+L0 58
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vregister
+R11
+!i10b 1
+!s100 4ZadhOf`bh;DBVj57DoQ^3
+I?;58OMJG0M6l81;GCMNgW1
+R2
+R0
+R12
+R13
+R14
+L0 3
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+vseg7
+R1
+!i10b 1
+!s100 o6M?>@LT`Y_b;aoe@^zU62
+IWFInL=LdL=0YkPClo`z_^0
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10

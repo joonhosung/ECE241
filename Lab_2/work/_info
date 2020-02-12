@@ -1,0 +1,131 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/junho/OneDrive/University of Toronto/- Courses!/Year 2/Term 1/ECE241 - Digital Systems/Lab2
+vmux
+Z1 !s110 1569353786
+!i10b 1
+!s100 gdITfj5:eEbOamVHI^l6`0
+I:<b9oefGFn[?hASbTSWH:3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1569353557
+Z4 8mux.v
+Z5 Fmux.v
+L0 8
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1569353786.000000
+Z8 !s107 mux.v|
+Z9 !s90 -reportprogress|300|mux.v|
+!i113 1
+Z10 tCvgOpt 0
+vmux2to1
+R1
+!i10b 1
+!s100 afChEB93:g=CUEd@;WQjS2
+I=F?kSLR6zRa1[@IoCQG<60
+R2
+R0
+R3
+R4
+R5
+L0 20
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vmuxGates
+Z11 !s110 1569430108
+!i10b 1
+!s100 >=6;SZY3z8Ndd3P18P^XR3
+ICd8kFZ9dDS^gE2LGmzRIm0
+R2
+R0
+Z12 w1569360676
+Z13 8Lab2Test.v
+Z14 FLab2Test.v
+L0 19
+R6
+r1
+!s85 0
+31
+Z15 !s108 1569430108.000000
+Z16 !s107 Lab2Test.v|
+Z17 !s90 -reportprogress|300|Lab2Test.v|
+!i113 1
+R10
+nmux@gates
+vv7404
+R11
+!i10b 1
+!s100 MHa^zD40R<dlz1ARh21FZ2
+IM<Y<YCKDO_MPb_zdYH@Vf2
+R2
+R0
+R12
+R13
+R14
+L0 29
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+vv7408
+R11
+!i10b 1
+!s100 1@zmmQIDO`z0ECdh<T<Z:3
+IgTWSG2GNAe8SJWBSfXTK63
+R2
+R0
+R12
+R13
+R14
+L0 42
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+vv7432
+R11
+!i10b 1
+!s100 BS]<K<h7zhdB;jWKneS;:1
+I<`EmZKkz:e?m`m[j1Ak[G3
+R2
+R0
+R12
+R13
+R14
+L0 53
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10

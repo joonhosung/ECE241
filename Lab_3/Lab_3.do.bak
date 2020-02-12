@@ -1,0 +1,50 @@
+vlib work
+vlog Lab_3.v
+vsim alwaysBlock
+log {/*}
+add wave {/*}
+
+#Input, MuxSelect
+force {Input[5]} 0
+force {Input[4]} 0
+force {Input[3]} 0
+force {Input[2]} 0
+force {Input[1]} 0
+force {Input[0]} 0
+force {MuxSelect[2]} 0
+force {MuxSelect[1]} 0
+force {MuxSelect[0]} 0
+run 10ns
+
+force {Input[5]} 0
+force {Input[4]} 0
+force {Input[3]} 0
+force {Input[2]} 0
+force {Input[1]} 0
+force {Input[0]} 1
+force {MuxSelect[2]} 0
+force {MuxSelect[1]} 0
+force {MuxSelect[0]} 0
+run 10ns
+
+force {Input[5]} 0
+force {Input[4]} 0
+force {Input[3]} 0
+force {Input[2]} 0
+force {Input[1]} 0
+force {Input[0]} 0
+force {MuxSelect[2]} 0
+force {MuxSelect[1]} 0
+force {MuxSelect[0]} 1
+run 10ns
+
+force {Input[5]} 0
+force {Input[4]} 0
+force {Input[3]} 0
+force {Input[2]} 0
+force {Input[1]} 1
+force {Input[0]} 0
+force {MuxSelect[2]} 0
+force {MuxSelect[1]} 0
+force {MuxSelect[0]} 1
+run 10ns

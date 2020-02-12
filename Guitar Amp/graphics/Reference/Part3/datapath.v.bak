@@ -1,0 +1,147 @@
+module datapath(resetn, clk, colourSW, cnA, cnB, cnC, cnD, Enable, colour, coordinates, done, timer, update);
+	input resetn;
+	input clk;
+	input [2:0] colourSW;
+
+	input cnA;
+	input cnB;
+	input cnC;
+	input cnD;
+
+	input Enable;					// indicating timer is finished
+
+	output reg [2:0] colour;
+	output reg [14:0] coordinates;
+	output reg done;
+	output reg timer;
+	output reg update;
+
+	reg [7:0] x;
+	reg [6:0] y;
+	reg upX, upY;
+
+	reg [4:0] counter;
+	reg [6:0] y1;
+	reg [6:0] y2;
+	reg [6:0] y3;
+
+	reg resetStart = 1'b1;
+	reg resetDone;
+
+	always@(posedge clk) begin
+		if (!resetn) begin
+
+			colour <= 0;
+			done <= 0;
+			counter <= 0;
+			timer <= 0;
+
+			x <= 0;
+			y <= 0;
+
+			if (resetStart) begin
+				coordinates <= 0;
+			end
+
+			if (!resetDone) begin
+				resetStart <= 0;
+				coordinates <= coordinates + 1;
+			end
+
+			if (coordinates >= 15'b100111111111111) begin
+				coordinates <= {x, y};
+				resetDone <= 1'b1;
+			end
+		end
+		
+		else begin
+			if (cnA) begin
+				update <= 1'b0;
+
+				colour <= colourSW;
+				counter <= counter + 1;
+				y1 = y + 1;
+				y2 = y1 + 1;
+				y3 = y2 + 1;
+
+				if (counter < 4)
+					coordinates <= {x + counter, y};
+				else if (counter < 8)
+					coordinates <= {x + (counter - 4), y1};
+				else if (counter < 12)
+					coordinates <= {x + (counter - 8), y2};
+				else if (counter < 16)
+					coordinates <= {x + (counter - 12), y3};
+				else
+					done <= 1'b1;
+			end
+
+			if (cnB) begin
+				counter <= 0;
+				done <= 1'b0;
+
+				timer <= 1'b1;
+			end
+
+			// state to erase
+			if (cnC) begin
+				timer <= 1'b0;
+
+				colour <= 0;
+				counter <= counter + 1;
+				y1 = y + 1;
+				y2 = y1 + 1;
+				y3 = y2 + 1;
+
+				if (counter < 4)
+					coordinates <= {x + counter, y};
+				else if (counter < 8)
+					coordinates <= {x + (counter - 4), y1};
+				else if (counter < 12)
+					coordinates <= {x + (counter - 8), y2};
+				else if (counter < 16)
+					coordinates <= {x + (counter - 12), y3};
+				else
+					done <= 1'b1;
+			end
+
+			if (cnD) begin
+				counter <= 0;
+				done <= 1'b0;
+
+				if (!update) begin
+					update <= 1'b1;
+
+					if (!upX)
+						x <= x + 1;
+
+					else
+						x <= x - 1;
+
+					if (!upY)
+						y <= y + 1;
+
+					else
+						y <= y - 1;
+				end
+			end
+		end
+
+
+	end
+
+	always@(*) begin
+		if (x == 8'b10011100)
+			upX = 1'b1;
+
+		else if (x == 8'b00000000)
+			upX = 1'b0;
+
+		if (y == 7'b1110100)
+			upY = 1'b1;
+
+		else if (y == 7'b0000000)
+			upY = 1'b0;
+	end
+
+endmodule

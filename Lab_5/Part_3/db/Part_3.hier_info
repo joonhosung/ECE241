@@ -1,0 +1,120 @@
+|Part_3
+KEY[0] => KEY[0].IN1
+KEY[1] => KEY[1].IN1
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+CLOCK_50 => CLOCK_50.IN1
+LEDR[0] <= ShiftReg_13bit:U3.out
+
+
+|Part_3|mux8to1:U1
+sel[0] => Decoder0.IN2
+sel[0] => Decoder1.IN1
+sel[1] => Decoder0.IN1
+sel[2] => Decoder0.IN0
+sel[2] => Decoder1.IN0
+out[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= Decoder1.DB_MAX_OUTPUT_PORT_TYPE
+out[8] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+out[9] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out[10] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+out[11] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+out[12] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Part_3|RateDiv:U2
+clock => Q[0].CLK
+clock => Q[1].CLK
+clock => Q[2].CLK
+clock => Q[3].CLK
+clock => Q[4].CLK
+clock => Q[5].CLK
+clock => Q[6].CLK
+clock => Q[7].CLK
+clock => Q[8].CLK
+clock => Q[9].CLK
+clock => Q[10].CLK
+clock => Q[11].CLK
+clock => Q[12].CLK
+clock => Q[13].CLK
+clock => Q[14].CLK
+clock => Q[15].CLK
+clock => Q[16].CLK
+clock => Q[17].CLK
+clock => Q[18].CLK
+clock => Q[19].CLK
+clock => Q[20].CLK
+clock => Q[21].CLK
+clock => Q[22].CLK
+clock => Q[23].CLK
+clock => Q[24].CLK
+clock => enable~reg0.CLK
+enable <= enable~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Part_3|ShiftReg_13bit:U3
+clock => out~reg0.CLK
+clock => Q[0].CLK
+clock => Q[1].CLK
+clock => Q[2].CLK
+clock => Q[3].CLK
+clock => Q[4].CLK
+clock => Q[5].CLK
+clock => Q[6].CLK
+clock => Q[7].CLK
+clock => Q[8].CLK
+clock => Q[9].CLK
+clock => Q[10].CLK
+clock => Q[11].CLK
+clock => Q[12].CLK
+reset_n => Q[0].ACLR
+reset_n => Q[1].ACLR
+reset_n => Q[2].ACLR
+reset_n => Q[3].ACLR
+reset_n => Q[4].ACLR
+reset_n => Q[5].ACLR
+reset_n => Q[6].ACLR
+reset_n => Q[7].ACLR
+reset_n => Q[8].ACLR
+reset_n => Q[9].ACLR
+reset_n => Q[10].ACLR
+reset_n => Q[11].ACLR
+reset_n => Q[12].ACLR
+reset_n => out~reg0.ENA
+ParallelLoadn => Q.OUTPUTSELECT
+ParallelLoadn => Q.OUTPUTSELECT
+ParallelLoadn => Q.OUTPUTSELECT
+ParallelLoadn => Q.OUTPUTSELECT
+ParallelLoadn => Q.OUTPUTSELECT
+ParallelLoadn => Q.OUTPUTSELECT
+ParallelLoadn => Q.OUTPUTSELECT
+ParallelLoadn => Q.OUTPUTSELECT
+ParallelLoadn => Q.OUTPUTSELECT
+ParallelLoadn => Q.OUTPUTSELECT
+ParallelLoadn => Q.OUTPUTSELECT
+ParallelLoadn => Q.OUTPUTSELECT
+ParallelLoadn => Q.OUTPUTSELECT
+ParallelLoadn => out.OUTPUTSELECT
+D[0] => Q.DATAA
+D[1] => Q.DATAA
+D[2] => Q.DATAA
+D[3] => Q.DATAA
+D[4] => Q.DATAA
+D[5] => Q.DATAA
+D[6] => Q.DATAA
+D[7] => Q.DATAA
+D[8] => Q.DATAA
+D[9] => Q.DATAA
+D[10] => Q.DATAA
+D[11] => Q.DATAA
+D[12] => Q.DATAA
+out <= out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
