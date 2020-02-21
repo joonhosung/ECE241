@@ -1,0 +1,2 @@
+*.html linguist-detectable=false
+*.verilog linguist-detectable=true
